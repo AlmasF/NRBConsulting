@@ -1,0 +1,14 @@
+@import url(components/style.css);
+@import url(vendors/reset.css);
+@import url(components/services.css);
+@import url(components/about.css);
+@import url(components/header.css);
+@import url(components/welcome.css);
+@import url(components/advantages.css);
+@import url(components/partners.css);
+@import url(components/consulting.css);
+@import url(components/contacts.css);
+@import url(components/footer.css);
+@import url(components/aside.css);
+@import url(components/success.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');

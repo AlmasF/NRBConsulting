@@ -1,0 +1,133 @@
+
+.welcome {
+    padding-top: 110px;
+    padding-left: 75px;
+}
+
+.welcome-content {
+    width: 100%;
+}
+
+.welcome-content h1 {
+    font-family: Gotham Pro;
+    font-size: 82px;
+    line-height: 84px;
+    font-weight: bolder;
+    color: #220959;
+}
+
+.welcome-content p {
+    font-family: Gotham Pro;
+    font-size: 20px;
+    line-height: 30px;
+    color: #202020;
+
+    margin-top: 30px;
+}
+
+.welcome-content button {
+    margin-top: 35px;
+
+    font-family: Gotham Pro;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #220959;
+
+    width: 342px;
+    height: 64px;
+    background: transparent;
+    border: 2px solid #220959;
+    box-sizing: border-box;
+    border-radius: 60px;
+
+    cursor: pointer;
+}
+
+.welcome-content--social {
+    display: flex;
+    margin-top: 132px;
+    margin-bottom: 29px;
+}
+
+.social-circle {
+    width: 32px;
+    height: 30px;
+    border-radius: 100%;
+    border: 2px solid #220959;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.social-circle img {
+    width: 14px;
+    height: 14px;
+    color: #220959;
+}
+
+
+@media (max-width: 1133px) {
+    .welcome {
+        padding-top: 50px;
+        padding-left: 75px;
+    }
+}
+
+@media (max-width: 1083px) {
+    .welcome-content--social {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 750px) {
+    .welcome-content h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .welcome-content button {
+        margin-top: 35px;
+    
+        font-family: Gotham Pro;
+        font-size: 14px;
+        line-height: 0;
+    
+        width: 250px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 575px) {
+    .welcome-content h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .welcome-content button {
+        margin-top: 35px;
+    
+        font-family: Gotham Pro;
+        font-size: 14px;
+        line-height: 0;
+    
+        width: 250px;
+        height: 50px;
+    }
+
+    .welcome {
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 413px) {
+    .welcome-content h1 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+}

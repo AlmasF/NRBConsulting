@@ -1,0 +1,123 @@
+.contacts {
+    padding-top: 150px;
+    background-color: #fff;
+    position: relative;
+}
+
+.contact-content {
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contacts-row {
+    margin: 0 0 22px 0;
+    border: 1px solid #220959;
+    width: 68px;
+}
+
+.contacts-block {
+    width: 458px;
+    height: 422px;
+    padding: 0px 0px 0px 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+    position: absolute;
+    background-color: #fff;
+
+    left: 0;
+}
+
+.contacts-block h2 {
+    font-family: Gotham Pro;
+    font-size: 42px;
+    line-height: 64px;
+    color: #202020;
+}
+
+.contacts-block h3 {
+    font-family: Gotham Pro;
+    font-size: 21px;
+    line-height: 31px;
+    color: #202020;
+
+    margin-bottom: 8px;
+}
+
+.contacts-block p {
+    font-family: Gotham Pro;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+
+    margin-bottom: 29px;
+}
+
+.contacts-info-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.contacts-info-card p {
+    font-family: Gotham Pro;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+
+    margin-bottom: 26px;
+    
+}
+
+.contacts-info-card img {
+    margin-right: 18px;
+}
+
+@media (max-width: 894px) {
+    .contacts {
+        padding-top: 50px;
+    }
+    .contacts iframe {
+        display: none;
+    }
+    .contact-content {
+        padding-right: 0px;
+        justify-content: flex-start;
+        background-image: none;
+        align-items: flex-start;
+    }
+
+    .contacts-block {
+        margin-left: 30px;
+        width: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts-block {
+        margin-left: 30;
+        padding-left: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: auto;
+        height: 422px;
+    }
+}
+
+@media (max-width: 450px) {
+    .contacts {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+    .contacts-block {
+        padding-top: 50px;
+    }
+}

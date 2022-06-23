@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Gotham Pro;
+    src: url("../GothamPro/GothamPro.ttf");
+    }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #dfe6ec;
+}
+
+.container {
+    background-image: url(../../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    max-width: 1440px;
+}
+
+
+@media (max-width: 1365px) {
+    .container {
+        background-size: auto;
+        background-position: fixed;
+    }
+}
